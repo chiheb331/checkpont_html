@@ -1,0 +1,144 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333333;
+    line-height: 24px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #2d3436;
+    padding: 16px 0;
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: #0984e3;
+    color: #ffffff;
+}
+
+img[alt="photo profil"] {
+    display: block;
+    margin: 32px auto;
+    border-radius: 50%;
+    border: 3px solid #2d3436;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+h2 {
+    color: #2d3436;
+    font-size: 24px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #0984e3;
+}
+
+iframe {
+    display: block;
+    margin: 24px auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+    width: 440px;
+    height: 260px;
+}
+
+#work ul {
+    list-style-position: inside;
+    padding-left: 16px;
+}
+
+#work li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #f5f6fa;
+    border-left: 3px solid #0984e3;
+    font-size: 16px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 36px;
+    color: #2d3436;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dfe6e9;
+    border-radius: 4px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: #0984e3;
+    color: #ffffff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 16px;
+    transition: background-color 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0767b3;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    color: #636e72;
+    margin-top: 32px;
+    font-size: 14px;
+}
+
+
